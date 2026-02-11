@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+
+#circle{
+    border:15px solid #ffffff;
+    height:500px;
+    width:500px;
+    border-radius:100%;
+    position:relative;
+}
+
+.hand{
+    
+    position:absolute;
+    right:50%;
+    top:50%;
+    transform-origin:right;
+    transform:rotate(90deg);
+    transition:all 0.2s cubic-bezier(.01,1.78,.98,-0.1);
+    
+}
+
+#hour{
+    width:120px;
+    height:0px;
+    border:2px solid red;
+}
+
+#minute{
+    width:200px;
+    height:0px;
+    border:2px solid red;
+}
+
+#second{
+    width:200px;
+    height:0px;
+    border:2px solid #ffffff;
+}
+
+
