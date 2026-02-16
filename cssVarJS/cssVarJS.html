@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changing CSS variable using Js</title>
+    <link rel="stylesheet" href="cssVarJS.css"/>
+    <script src="cssVarJS.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="title">CHANGING CSS VARIABLE USING <span id="jsWord">JS</span></div>
+
+        <label for="spacing">Spacing</label>
+        <input type="range" id="spacing" min="0" max = "25" name="spacing" value="0" data-type="px">
+
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" min="0" max = "25" name="blur" value="0" data-type="px">
+
+        <label for="spacing">Color</label>
+        <input type="color" id="color"  name="color" value="#e8133a" >
+
+        
+        <img src="background'.webp" alt="this is a background" id="background">
+        
+        
+    </div>
+</body>
+</html>
